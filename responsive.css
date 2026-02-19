@@ -1,0 +1,36 @@
+/* Add your media query here */
+
+
+  /* Step 10: Write the selector/rule property to style the nav element */
+
+ 
+  /* Step 11: Write the selector/rule property to update the .container class */
+
+
+  /* Steps 12 - 15: Update the grid-column property of the grid's children (where-needed)*/
+
+
+
+ /* Step 16:Write the selector/rule property to update the .text-block class */
+
+
+
+
+
+
+
+@media screen and (prefers-reduced-motion: reduce){
+  html{
+      scroll-behavior: auto; /* Removes scroll animation */
+  }
+
+  .skip a{
+    -webkit-transition: none; /* sets to default setting */
+    transition: none;        /* sets to default setting */
+   }
+
+  /*Turn off parallax*/
+  header{
+    background-attachment: initial;
+  }
+}
